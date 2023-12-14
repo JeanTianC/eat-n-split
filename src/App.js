@@ -67,6 +67,7 @@ return (
     {selectFriend &&   <FormSplitBill  
     selectFriend={selectFriend}
     onSplitBill={handleSplitBill}
+    key={selectFriend.id}
     />}
    </div>
 )
